@@ -16,6 +16,21 @@ public class oddEven {
         else{
             System.out.println("Enter a +ve number");
         }
+
+        System.out.println("odd even in series");
+         System.out.print("Enter a number ; ");
+         int num2 = ss.nextInt();
+         for (int i=1 ; i<= num2 ; i ++){
+            if (i%2 == 0) {
+                System.out.println("even :"+ i );
+            }
+           else{
+            System.out.println("odd :" + i );
+           }
+
+         }
+
+
            ss.close();
     }
 }

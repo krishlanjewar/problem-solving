@@ -18,6 +18,7 @@ public class primeNumber {
     } else {
         System.out.println("not prime");
     }
-
+ss.close();
     }
+
 }
