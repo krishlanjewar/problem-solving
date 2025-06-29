@@ -16,6 +16,13 @@ public class palindrome {
     } else {
         System.out.println("Not a palindrom  ");
     }
+
+    System.out.print("enter a string:");
+    String name = ss.nextLine();
+    String tem2 = name;
+
+
+    
     ss.close();
  }
 }
