@@ -4,16 +4,16 @@ public class primeNumber {
         Scanner ss = new Scanner(System.in);
         System.out.print("Enter num : ");
         int num = ss.nextInt();
-        int flag = 0 ;
+        int count = 0 ;
     
-        for (int i= 1 ; i < num/2 ; i++ ) {
+        for (int i= 2 ; i <= Math.sqrt(num) ; i++ ) {
         if (num%i==0) {
-            flag ++ ;
-            System.out.println(i);
+            count ++ ;
+            break;
         }        
     }
 
-    if (flag<1) {
+    if (count<1) {
         System.out.println("prime");    
     } else {
         System.out.println("not prime");
