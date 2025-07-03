@@ -7,10 +7,7 @@ public class Divisor {
                 if (index != num/index) {
                      System.out.println(num/index);
                 }
-               
-
             }
-
         }
     }
 }
