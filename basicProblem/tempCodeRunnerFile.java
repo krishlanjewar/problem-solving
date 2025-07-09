@@ -1,1 +1,1 @@
-mul
+newnum = 0;
